@@ -8,6 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+
 import CV from '../../assets/final-cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -15,8 +16,9 @@ function Hero() {
     const {theme, toggleTheme} = useTheme();
     const themeIcon = theme ==='light' ? sun : moon;
     const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+    const githubIcon = theme === 'light' ? githubLight : githubDark;
+    const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+   
   return (
 
     <section id='hero' className={styles.container}>
@@ -50,10 +52,13 @@ function Hero() {
                 <a href="https://Linkedin.com/" target="_blank">
                     <img src={linkedinIcon} alt="Linkedin icon" />
                 </a>
+                <a href="https://Youtube.com/" target="_blank">
+                    <img src={youtubeIcon} alt="Youtube icon" />
+                </a>
+
             </span>
             <p className={styles.description}>
-            Driven and professional technical person with over 6 years of experience
-            in Data and Network Operation Centers
+            I have 6+ years of experience in data/network operations, security  and access systems, telecommunications engineering, and electronic project development.
             </p>
             <a href={CV} download>
                 <button className="hover">

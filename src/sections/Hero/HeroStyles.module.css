@@ -69,6 +69,8 @@
   
   .description {
     max-width: 24ch;
+    text-justify: distribute-all-lines;
+    
   }
   
   .info {
