@@ -13,8 +13,7 @@ function App() {
       <Skills />
       <Contact />
       <Footer />
-
-    </>
+  </>
   );
 
 } 
