@@ -38,7 +38,7 @@ function Hero() {
         </div>
         <div className={styles.info}> 
             <h1>
-                Pratap sd
+                Pratap Singh Darjee
             </h1>
             <h2>
                 IT Technical Specialist
