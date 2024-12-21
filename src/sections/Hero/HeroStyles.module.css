@@ -67,7 +67,7 @@
   }
   
   .description {
-    max-width: 40ch;
+    max-width: 40rcap;
     align-self: center;
     text-align: justify;
     }
