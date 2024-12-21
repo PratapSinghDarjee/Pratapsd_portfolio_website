@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 60px;
     text-align: center;
-    height: 250dvh;
+    height: 200dvh;
     min-height: 180dvh;
     .hero {
       max-width: 250px;
