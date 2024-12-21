@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 60px;
     text-align: center;
-    height: 100dvh;
+    height: 250dvh;
     min-height: 180dvh;
     .hero {
       max-width: 250px;
@@ -67,7 +67,7 @@
   }
   
   .description {
-    max-width: 40rcap;
+    max-width: 35ch;
     align-self: center;
     text-align: justify;
     }
